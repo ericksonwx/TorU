@@ -54,7 +54,7 @@ class toru():
         # Initiate relevant model variables and directory structures
         print('Starting TorU...')
         
-        self.base_dir = '/ourdisk/hpc/ai2es/nerickson/'
+        self.base_dir = '' # Your filepath here
         self.inputs_dir = os.path.join(self.base_dir,'Tor_DL/v2/Inputs') 
         self.labels_dir = os.path.join(self.base_dir,'Tor_DL/v2/Labels')
         self.test_in_dir = os.path.join(self.base_dir,'Tor_DL/TCTs/Inputs')
